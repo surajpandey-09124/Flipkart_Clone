@@ -149,13 +149,15 @@ header{
   /* grid-template-columns:repeat(auto-fit,maxmix(50px,1fr)); */
   display:flex;
   justify-content:space-evenly;
+  gap:10px;
   padding:10px 10px 0 10px;
   cursor:pointer;
 }
 
 .for-us div{
   /* border:1px solid black; */
-  width:19%;
+  width:20%;
+  padding:3px;
   text-align:center;
   cursor:pointer;
   transition:transform 0.3s ease;
@@ -390,9 +392,9 @@ footer .links{
 }
 
 @media (min-width:501px) and (max-width:1000px){
-    .product-box div{
-    height:30vh;
-  }
+   .product-box div{
+    height:35vh;
+   }
 }
 
 @media (max-width:500px){
