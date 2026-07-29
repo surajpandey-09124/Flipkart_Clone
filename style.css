@@ -125,6 +125,11 @@ header{
   padding:10px;
   border:none;
   font-size:16px;
+  outline:none;
+}
+
+.search input:focus{
+  outline:1px solid white;
 }
 
 .search i{
